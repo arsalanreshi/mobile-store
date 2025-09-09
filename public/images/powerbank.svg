@@ -1,0 +1,32 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="powerbankGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Power bank body -->
+  <rect x="70" y="90" width="160" height="80" rx="15" fill="url(#powerbankGradient)" stroke="#1a252f" stroke-width="2"/>
+  
+  <!-- LED display -->
+  <rect x="85" y="105" width="40" height="20" rx="5" fill="#000" stroke="#333" stroke-width="1"/>
+  <text x="105" y="118" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="10">100%</text>
+  
+  <!-- USB-C port -->
+  <rect x="140" y="175" width="20" height="8" rx="4" fill="#1a252f"/>
+  
+  <!-- USB-A ports -->
+  <rect x="170" y="175" width="15" height="8" rx="2" fill="#1a252f"/>
+  <rect x="190" y="175" width="15" height="8" rx="2" fill="#1a252f"/>
+  
+  <!-- Anker logo -->
+  <text x="150" y="140" text-anchor="middle" fill="#4a90e2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Anker</text>
+  
+  <!-- Capacity indicator -->
+  <text x="150" y="155" text-anchor="middle" fill="#bbb" font-family="Arial, sans-serif" font-size="10">20000mAh</text>
+  
+  <!-- Product info -->
+  <text x="150" y="220" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Anker PowerBank</text>
+  <text x="150" y="235" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹3,999</text>
+</svg>

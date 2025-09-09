@@ -1,0 +1,36 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1d1d1f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d2d30;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone body -->
+  <rect x="80" y="30" width="140" height="240" rx="25" fill="url(#phoneGradient)" stroke="#333" stroke-width="1"/>
+  
+  <!-- Screen -->
+  <rect x="90" y="50" width="120" height="200" rx="20" fill="url(#screenGradient)"/>
+  
+  <!-- Dynamic Island -->
+  <rect x="135" y="60" width="30" height="12" rx="6" fill="#1d1d1f"/>
+  
+  <!-- Camera lenses (Pro model) -->
+  <circle cx="195" cy="80" r="12" fill="#2d2d30" stroke="#444" stroke-width="1"/>
+  <circle cx="195" cy="105" r="12" fill="#2d2d30" stroke="#444" stroke-width="1"/>
+  <circle cx="195" cy="130" r="12" fill="#2d2d30" stroke="#444" stroke-width="1"/>
+  <circle cx="195" cy="80" r="8" fill="#1a1a1a"/>
+  <circle cx="195" cy="105" r="8" fill="#1a1a1a"/>
+  <circle cx="195" cy="130" r="8" fill="#1a1a1a"/>
+  
+  <!-- Apple logo -->
+  <path d="M150 180 C145 175, 140 175, 140 180 C140 185, 145 190, 150 185 C155 190, 160 185, 160 180 C160 175, 155 175, 150 180 Z" fill="#666"/>
+  
+  <!-- Brand text -->
+  <text x="150" y="280" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">iPhone 15 Pro</text>
+  <text x="150" y="295" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹1,34,900</text>
+</svg>

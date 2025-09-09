@@ -1,0 +1,36 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="galaxyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="galaxyScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone body -->
+  <rect x="75" y="25" width="150" height="250" rx="28" fill="url(#galaxyGradient)" stroke="#2a2a3e" stroke-width="1"/>
+  
+  <!-- Screen -->
+  <rect x="85" y="40" width="130" height="220" rx="22" fill="url(#galaxyScreen)"/>
+  
+  <!-- Camera module -->
+  <rect x="180" y="50" width="35" height="80" rx="15" fill="#1a1a2e" stroke="#333" stroke-width="1"/>
+  
+  <!-- Camera lenses -->
+  <circle cx="197" cy="70" r="10" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
+  <circle cx="197" cy="95" r="8" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
+  <circle cx="197" cy="115" r="6" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
+  
+  <!-- S Pen indicator -->
+  <rect x="90" y="240" width="20" height="3" rx="1.5" fill="#4a90e2"/>
+  
+  <!-- Samsung logo area -->
+  <text x="150" y="200" text-anchor="middle" fill="#4a90e2" font-family="Arial, sans-serif" font-size="10" font-weight="bold">SAMSUNG</text>
+  
+  <!-- Product info -->
+  <text x="150" y="280" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Galaxy S24 Ultra</text>
+  <text x="150" y="295" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹1,29,999</text>
+</svg>

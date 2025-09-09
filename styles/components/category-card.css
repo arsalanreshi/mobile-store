@@ -1,0 +1,212 @@
+/* Category Card Component Styles */
+.category-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px) saturate(180%);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 140px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.category-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--brand-primary);
+  color: white;
+}
+
+.category-card:hover::before {
+  opacity: 0.9;
+}
+
+.category-emoji {
+  font-size: 2.5rem;
+  line-height: 1;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+}
+
+.category-card:hover .category-emoji {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.category-name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.category-description {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  text-align: center;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.category-card:hover .category-description {
+  opacity: 1;
+  transform: translateY(0);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.category-count {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--brand-primary);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+.category-card:hover .category-count {
+  opacity: 1;
+  transform: scale(1);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Category Card Variants */
+.category-card.large {
+  padding: 3rem 2rem;
+  min-height: 200px;
+}
+
+.category-card.large .category-emoji {
+  font-size: 4rem;
+}
+
+.category-card.large .category-name {
+  font-size: 1.5rem;
+}
+
+.category-card.compact {
+  padding: 1.5rem;
+  min-height: 120px;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.category-card.compact .category-emoji {
+  font-size: 2rem;
+}
+
+.category-card.compact .category-name {
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+/* Grid Layout Adjustments */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.categories-grid.compact {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .category-card {
+    padding: 1.5rem;
+    min-height: 140px;
+  }
+  
+  .category-emoji {
+    font-size: 2.5rem;
+  }
+  
+  .category-name {
+    font-size: 1.125rem;
+  }
+  
+  .categories-grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+  
+  .category-card.large {
+    padding: 2rem 1.5rem;
+    min-height: 160px;
+  }
+  
+  .category-card.large .category-emoji {
+    font-size: 3rem;
+  }
+  
+  .category-card.compact {
+    padding: 1.25rem;
+    min-height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-card {
+    padding: 1.25rem;
+    min-height: 120px;
+  }
+  
+  .category-emoji {
+    font-size: 2rem;
+  }
+  
+  .category-name {
+    font-size: 1rem;
+  }
+  
+  .categories-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .category-card.compact {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .category-card.compact .category-name {
+    text-align: center;
+  }
+}

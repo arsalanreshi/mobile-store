@@ -1,0 +1,13 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#f8f9fa"/>
+<circle cx="150" cy="150" r="55" fill="#1a1a2e"/>
+<circle cx="150" cy="150" r="40" fill="#000"/>
+<circle cx="150" cy="150" r="50" fill="none" stroke="#4a90e2" stroke-width="2" stroke-dasharray="3,3"/>
+<rect x="205" y="140" width="8" height="20" rx="4" fill="#666"/>
+<rect x="130" y="80" width="40" height="25" rx="20" fill="#1a1a2e"/>
+<rect x="130" y="195" width="40" height="25" rx="20" fill="#1a1a2e"/>
+<text x="150" y="135" text-anchor="middle" fill="#4a90e2" font-family="Arial" font-size="8" font-weight="bold">SAMSUNG</text>
+<text x="150" y="160" text-anchor="middle" fill="#fff" font-family="Arial" font-size="14" font-weight="bold">12:30</text>
+<text x="150" y="240" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Galaxy Watch6</text>
+<text x="150" y="255" text-anchor="middle" fill="#666" font-family="Arial" font-size="12">Samsung</text>
+</svg>

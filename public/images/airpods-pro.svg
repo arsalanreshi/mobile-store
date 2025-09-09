@@ -1,0 +1,29 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="airpodsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Case body -->
+  <rect x="75" y="80" width="150" height="100" rx="50" fill="url(#airpodsGradient)" stroke="#dee2e6" stroke-width="2"/>
+  
+  <!-- Case lid -->
+  <path d="M 75 130 Q 75 80, 125 80 L 175 80 Q 225 80, 225 130" fill="none" stroke="#adb5bd" stroke-width="1"/>
+  
+  <!-- Left AirPod -->
+  <ellipse cx="120" cy="130" rx="12" ry="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="114" y="150" width="12" height="25" rx="6" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Right AirPod -->
+  <ellipse cx="180" cy="130" rx="12" ry="20" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <rect x="174" y="150" width="12" height="25" rx="6" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  
+  <!-- Apple logo -->
+  <path d="M150 110 C145 105, 140 105, 140 110 C140 115, 145 120, 150 115 C155 120, 160 115, 160 110 C160 105, 155 105, 150 110 Z" fill="#999"/>
+  
+  <!-- Product info -->
+  <text x="150" y="220" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">AirPods Pro (2nd Gen)</text>
+  <text x="150" y="235" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹24,900</text>
+</svg>

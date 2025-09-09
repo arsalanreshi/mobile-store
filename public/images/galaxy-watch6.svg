@@ -1,0 +1,43 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="galaxyWatchGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="galaxyWatchScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f23;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Watch case -->
+  <circle cx="150" cy="140" r="60" fill="url(#galaxyWatchGradient)" stroke="#2a2a3e" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <circle cx="150" cy="140" r="45" fill="url(#galaxyWatchScreen)"/>
+  
+  <!-- Rotating bezel -->
+  <circle cx="150" cy="140" r="55" fill="none" stroke="#4a90e2" stroke-width="2" stroke-dasharray="3,3"/>
+  
+  <!-- Crown -->
+  <rect x="210" y="130" width="8" height="20" rx="4" fill="#666"/>
+  
+  <!-- Button -->
+  <rect x="210" y="155" width="6" height="15" rx="3" fill="#666"/>
+  
+  <!-- Watch band top -->
+  <rect x="130" y="70" width="40" height="25" rx="20" fill="#1a1a2e"/>
+  
+  <!-- Watch band bottom -->
+  <rect x="130" y="185" width="40" height="25" rx="20" fill="#1a1a2e"/>
+  
+  <!-- Samsung logo -->
+  <text x="150" y="125" text-anchor="middle" fill="#4a90e2" font-family="Arial, sans-serif" font-size="8" font-weight="bold">SAMSUNG</text>
+  
+  <!-- Watch face -->
+  <text x="150" y="150" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">12:30</text>
+  
+  <!-- Product info -->
+  <text x="150" y="240" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Galaxy Watch6</text>
+  <text x="150" y="255" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹32,999</text>
+</svg>

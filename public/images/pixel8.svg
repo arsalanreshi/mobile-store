@@ -1,0 +1,36 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pixelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a73e8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pixelScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone body -->
+  <rect x="76" y="26" width="148" height="248" rx="28" fill="url(#pixelGradient)" stroke="#2a5bd8" stroke-width="1"/>
+  
+  <!-- Screen -->
+  <rect x="86" y="42" width="128" height="216" rx="22" fill="url(#pixelScreen)"/>
+  
+  <!-- Camera bar -->
+  <rect x="86" y="60" width="128" height="35" rx="17" fill="#1a73e8" stroke="#0d47a1" stroke-width="1"/>
+  
+  <!-- Camera lenses -->
+  <circle cx="120" cy="77" r="10" fill="#000"/>
+  <circle cx="150" cy="77" r="10" fill="#000"/>
+  <circle cx="180" cy="77" r="8" fill="#000"/>
+  
+  <!-- Google logo colors -->
+  <circle cx="150" cy="180" r="3" fill="#4285f4"/>
+  <circle cx="158" cy="180" r="3" fill="#ea4335"/>
+  <circle cx="166" cy="180" r="3" fill="#fbbc05"/>
+  <circle cx="174" cy="180" r="3" fill="#34a853"/>
+  
+  <!-- Product info -->
+  <text x="150" y="280" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Pixel 8 Pro</text>
+  <text x="150" y="295" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹1,06,999</text>
+</svg>

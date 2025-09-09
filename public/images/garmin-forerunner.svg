@@ -1,0 +1,44 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="garminGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="garminScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Watch case -->
+  <circle cx="150" cy="140" r="65" fill="url(#garminGradient)" stroke="#3a4a5a" stroke-width="2"/>
+  
+  <!-- Screen -->
+  <circle cx="150" cy="140" r="50" fill="url(#garminScreen)"/>
+  
+  <!-- Buttons left side -->
+  <rect x="80" y="120" width="8" height="15" rx="4" fill="#666"/>
+  <rect x="80" y="145" width="8" height="15" rx="4" fill="#666"/>
+  
+  <!-- Buttons right side -->
+  <rect x="212" y="110" width="8" height="12" rx="4" fill="#666"/>
+  <rect x="212" y="130" width="8" height="12" rx="4" fill="#666"/>
+  <rect x="212" y="150" width="8" height="12" rx="4" fill="#666"/>
+  
+  <!-- Watch band top -->
+  <rect x="125" y="65" width="50" height="25" rx="25" fill="#2c3e50"/>
+  
+  <!-- Watch band bottom -->
+  <rect x="125" y="190" width="50" height="25" rx="25" fill="#2c3e50"/>
+  
+  <!-- Garmin logo -->
+  <text x="150" y="120" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">GARMIN</text>
+  
+  <!-- Running data display -->
+  <text x="150" y="140" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="10">5.2 KM</text>
+  <text x="150" y="155" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="8">4:32/KM</text>
+  
+  <!-- Product info -->
+  <text x="150" y="240" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Garmin Forerunner 965</text>
+  <text x="150" y="255" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹59,999</text>
+</svg>

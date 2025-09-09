@@ -1,0 +1,11 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#f8f9fa"/>
+<rect x="76" y="36" width="148" height="228" rx="25" fill="#4285f4"/>
+<rect x="86" y="51" width="128" height="198" rx="20" fill="#000"/>
+<rect x="86" y="70" width="128" height="30" rx="15" fill="#1a73e8"/>
+<circle cx="120" cy="85" r="8" fill="#000"/>
+<circle cx="150" cy="85" r="8" fill="#000"/>
+<circle cx="180" cy="85" r="6" fill="#000"/>
+<text x="150" y="270" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">Pixel 8 Pro</text>
+<text x="150" y="285" text-anchor="middle" fill="#666" font-family="Arial" font-size="12">Google</text>
+</svg>

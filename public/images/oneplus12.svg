@@ -1,0 +1,34 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oneplusGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="oneplusScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Phone body -->
+  <rect x="78" y="28" width="144" height="244" rx="26" fill="url(#oneplusGradient)" stroke="#3a4a5a" stroke-width="1"/>
+  
+  <!-- Screen -->
+  <rect x="88" y="45" width="124" height="210" rx="20" fill="url(#oneplusScreen)"/>
+  
+  <!-- Camera module -->
+  <circle cx="190" cy="80" r="25" fill="#2c3e50" stroke="#444" stroke-width="1"/>
+  <circle cx="190" cy="80" r="15" fill="#1a1a1a"/>
+  <circle cx="190" cy="80" r="8" fill="#333"/>
+  
+  <!-- Additional camera -->
+  <circle cx="190" cy="125" r="12" fill="#2c3e50" stroke="#444" stroke-width="1"/>
+  <circle cx="190" cy="125" r="8" fill="#1a1a1a"/>
+  
+  <!-- OnePlus logo -->
+  <text x="150" y="190" text-anchor="middle" fill="#e74c3c" font-family="Arial, sans-serif" font-size="12" font-weight="bold">1+</text>
+  
+  <!-- Product info -->
+  <text x="150" y="280" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">OnePlus 12</text>
+  <text x="150" y="295" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="12">₹64,999</text>
+</svg>

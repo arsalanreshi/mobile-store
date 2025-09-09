@@ -1,0 +1,11 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="#f8f9fa"/>
+<rect x="70" y="110" width="160" height="80" rx="15" fill="#34495e"/>
+<rect x="85" y="125" width="40" height="20" rx="5" fill="#000"/>
+<text x="105" y="138" text-anchor="middle" fill="#00ff00" font-family="monospace" font-size="10">100%</text>
+<rect x="140" y="195" width="20" height="8" rx="4" fill="#1a252f"/>
+<rect x="170" y="195" width="15" height="8" rx="2" fill="#1a252f"/>
+<text x="150" y="155" text-anchor="middle" fill="#4a90e2" font-family="Arial" font-size="12" font-weight="bold">Anker</text>
+<text x="150" y="220" text-anchor="middle" fill="#333" font-family="Arial" font-size="14" font-weight="bold">PowerBank 20000mAh</text>
+<text x="150" y="235" text-anchor="middle" fill="#666" font-family="Arial" font-size="12">Anker</text>
+</svg>

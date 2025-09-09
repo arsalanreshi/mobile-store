@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
+import ProfileDropdown from "./ProfileDropdown";
 import { useContext, useState } from "react";
 import { CartContext } from "../pages/_app";
 import Image from "next/image";
@@ -29,10 +30,7 @@ export default function Navbar() {
         </nav>
 
         <div className="navbar-actions">
-          <button
-            className="cart-button"
-            onClick={() => setIsCartOpen(true)}
-          >
+          <button className="cart-button" onClick={() => setIsCartOpen(true)}>
             🛒 Cart
             {totalItems > 0 && (
               <span className="cart-info">
@@ -40,6 +38,7 @@ export default function Navbar() {
               </span>
             )}
           </button>
+          <ProfileDropdown />
           <ThemeToggle />
         </div>
       </div>

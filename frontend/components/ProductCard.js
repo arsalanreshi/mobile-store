@@ -26,14 +26,15 @@ export default function ProductCard({ item }) {
     <div className="product-card" onClick={handleCardClick} style={{ cursor: 'pointer' }}>
       <div className="product-image-container">
         <img 
-          src={item.image} 
+          src="/iphones.jpg" 
           alt={item.name} 
           className="product-image"
           onError={(e) => {
-            console.log('Image failed to load:', item.image);
-            e.target.style.display = 'none';
+            console.log('Image failed to load, falling back to original image');
+            e.target.onerror = null; // Prevent infinite loop
+            e.target.src = item.image;
           }}
-          onLoad={() => console.log('Image loaded:', item.image)}
+          onLoad={() => console.log('iPhone image loaded')}
         />
         <div className="product-badge">New</div>
       </div>

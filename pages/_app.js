@@ -1,4 +1,5 @@
 import { useEffect, useState, createContext } from "react";
+import { AuthProvider } from '../contexts/AuthContext';
 import '../styles/globals.css'
 import '../styles/components/navbar.css'
 import '../styles/components/hero.css'
@@ -16,6 +17,16 @@ import '../styles/components/checkout-page.css'
 import '../styles/components/payment-page.css'
 import '../styles/components/contact-page.css'
 import '../styles/components/about-page.css'
+import '../styles/components/auth.css'
+import '../styles/components/profile.css'
+import '../styles/components/profile-dropdown.css'
+import '../styles/components/auth-modal.css'
+import '../styles/admin/admin.css'
+import '../styles/admin/admin-login.css'
+import '../styles/admin/products.css'
+import '../styles/admin/orders.css'
+import '../styles/admin/users.css'
+import '../styles/admin/settings.css'
 export const ThemeContext = createContext();
 export const CartContext = createContext();
 
@@ -106,23 +117,25 @@ export default function MyApp({ Component, pageProps }) {
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <CartContext.Provider
-        value={{
-          cart,
-          addToCart,
-          removeFromCart,
-          updateQty,
-          isCartOpen,
-          setIsCartOpen,
-          saveCart,
-          restoreCart,
-          savedCart,
-          clearCart,
-        }}
-      >
-        <Component {...pageProps} />
-      </CartContext.Provider>
-    </ThemeContext.Provider>
+    <AuthProvider>
+      <ThemeContext.Provider value={{ theme, toggleTheme }}>
+        <CartContext.Provider
+          value={{
+            cart,
+            addToCart,
+            removeFromCart,
+            updateQty,
+            isCartOpen,
+            setIsCartOpen,
+            saveCart,
+            restoreCart,
+            savedCart,
+            clearCart,
+          }}
+        >
+          <Component {...pageProps} />
+        </CartContext.Provider>
+      </ThemeContext.Provider>
+    </AuthProvider>
   );
 }
